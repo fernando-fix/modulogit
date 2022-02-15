@@ -1,3 +1,7 @@
 Alteração do ReadMe para descrever melhor o meu sistema
 
-Outra linha adicionada de propósito
+Outra linha removida de propósito
+
+Outra linha legal
+
+Linha seia lá
