@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EAD</title>
+</head>
+<body>
+    <aside class="lateral">
+        <div class="barra--Lateral">
+            <div class="bolinha1">&lt</div>
+            <div class="bolinha2">&gt</div>
+        </div>
+    </aside>
+
+    <script>
+        document.querySelector('.bolinha1').addEventListener('click',() => {
+            let item = document.querySelector('.barra--Lateral');
+            if(item.style.left == "0px") {
+                item.style.left = "-150px";
+            } else {
+                item.style.left = "0px";
+            }
+        });
+        document.querySelector('.bolinha2').addEventListener('click',() => {
+            let item = document.querySelector('.barra--Lateral');
+            if(item.style.left == "0px") {
+                item.style.left = "-150px";
+            } else {
+                item.style.left = "0px";
+            }
+        });
+    </script>
+</body>
+</html>

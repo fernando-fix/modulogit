@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.barra--Lateral {
+    position: absolute;
+    top: 50px;
+    height: 100vh;
+    width: 150px;
+    background-color: red;
+    transition: 2s ease;
+    left: 0px;
+}
+
+.bolinha1 {
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    left: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 50px;
+    cursor: pointer;
+}
+.bolinha2 {
+    display: none;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    left: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 50px;
+    cursor: pointer;
+}
